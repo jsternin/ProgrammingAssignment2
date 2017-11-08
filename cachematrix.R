@@ -4,7 +4,7 @@
 ##  calcultation of the same inverted matrix
 ## example of usage:
 ## m <- matrix(rnorm(9),3,3)
-## x <- makeCacheMatirx(m)  ## called first function 
+## x <- makeCacheMatrix(m)  ## called first function 
 ## y <- cacheSolve(x)       ## called second function - calculate inverted
 ## y <- cacheSolve(x)       ## called second function ; prints : getting cached data and retruns inverted
 ## y %*% m                  ## test that this is really identity matrix
